@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 8, 2013 12:41:30 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+ <class name="com.acmeamalgamatedwidgets.hlwx.RSSFeed" table="RSSFeed">
+  <id name="idRSSFeed" type="int">
+   <column name="idRSSFeed"/>
+   <generator class="assigned"/>
+  </id>
+  <property generated="never" lazy="false" name="RSSFeedName" type="java.lang.String">
+   <column name="RSSFeedName"/>
+  </property>
+  <property generated="never" lazy="false" name="RSSFeedURL" type="java.lang.String">
+   <column name="RSSFeedURL"/>
+  </property>
+  <property generated="never" lazy="false" name="RSSFeedInterval" type="int">
+   <column name="RSSFeedInterval"/>
+  </property>
+ </class>
+</hibernate-mapping>
